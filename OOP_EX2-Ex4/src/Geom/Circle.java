@@ -10,7 +10,6 @@ public class Circle implements Geom_element {
 	public Circle(Point3D cen, double rad) {
 		this.set_cen(new Point3D(cen));
 		this.set_radius(rad);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -23,8 +22,10 @@ public class Circle implements Geom_element {
 
 	@Override
 	public double distance2D(Point3D p) {
-		// TODO Auto-generated method stub
-		return -1;
+		double d = p.distance2D(this.get_cen());
+		double dr = d - this.get_radius();
+		double ans = Math.max(0, dr);
+		return ans;
 	}
 
 	public Point3D get_cen() {
