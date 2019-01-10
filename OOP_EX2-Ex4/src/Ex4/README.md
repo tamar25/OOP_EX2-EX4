@@ -2,4 +2,4 @@ test
 
 test
 
-![My image](classDiagram.svg)
+![My image](classDiagram.gif)
