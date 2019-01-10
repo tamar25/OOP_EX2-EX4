@@ -2,4 +2,4 @@ test
 
 test
 
-![My image](classDiagram.ucls‬)
+![My image](classDiagram.svg)
