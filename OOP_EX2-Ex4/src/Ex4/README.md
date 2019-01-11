@@ -6,3 +6,5 @@ To select player initial location, press the location on the map before loading 
 The system diagram:
 
 ![My image](classDiagram.gif)
+
+To compare with classmate, all data is available at https://liad.cloud/#one 
